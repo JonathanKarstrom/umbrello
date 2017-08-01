@@ -1,0 +1,20 @@
+.well {
+    -webkit-box-shadow: 8px 9px 14px -4px rgba(97,96,97,0.44)!important;
+    -moz-box-shadow: 8px 9px 14px -4px rgba(97,96,97,0.44)!important;
+    box-shadow: 8px 9px 14px -4px rgba(97,96,97,0.44)!important;
+
+}
+.navbar {
+    -webkit-box-shadow: 8px 9px 14px -4px rgba(97, 96, 97, 0.44) !important;
+    -moz-box-shadow: 8px 9px 14px -4px rgba(97, 96, 97, 0.44) !important;
+    box-shadow: 8px 9px 14px -4px rgba(97, 96, 97, 0.44) !important;
+}
+.container.drop-shadow {
+    padding-left:0;
+    padding-right:0;
+}
+
+body { padding-top: 60px; }
+@media screen and (max-width: 768px) {
+    body { padding-top: 60px; }
+}
