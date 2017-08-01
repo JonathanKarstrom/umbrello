@@ -38,7 +38,7 @@ app.controller('mainCtrl', function ($scope, $http, $location, $anchorScroll) {
     $scope.getWeather = function () {
         $http({
             method: 'GET',
-            url: 'http://api.openweathermap.org/data/2.5/forecast?id='
+            url: 'https://api.openweathermap.org/data/2.5/forecast?id='
             + $scope.selectedLocation.id
             + '&appid=2a7830a80daa8519a19f0ab69cca58b5&units=metric'
         }).then(function successCallback(response) {
