@@ -1,13 +1,17 @@
 {
-  "name": "agbeditor",
+  "name": "Umbrello",
   "version": "0.0.1",
-  "description": "Verktyg för att generera Åtgärdsbeskrivningar med html-element",
+  "description": "App that lets you check if you need to bring a umbrella to work or not",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JonathanKarstrom/umbrello"
+  },
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jonathan Karström",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "dependencies": {
     "express": "^4.15.3",
     "rootpath": "^0.1.2"
